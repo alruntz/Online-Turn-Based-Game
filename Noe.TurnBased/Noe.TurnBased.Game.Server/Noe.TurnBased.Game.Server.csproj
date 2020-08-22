@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Noe.MMO.Game.Transport.Server">
+      <HintPath>..\..\MMO-Game-Server-Engine\Noe.MMO\Noe.MMO.Game.Transport.Server\bin\Debug\netcoreapp3.1\Noe.MMO.Game.Transport.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
