@@ -1,0 +1,3 @@
+[submodule "MMO-Game-Server-Engine"]
+	path = MMO-Game-Server-Engine
+	url = https://github.com/alruntz/MMO-Game-Server-Engine.git
